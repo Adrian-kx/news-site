@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-image: url("../img/fundo.jpg");
+    background-attachment: fixed;
+    background-repeat: repeat-x;
+    background-size: 100% 800px;
+    text-align: center;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 70px;
+}
+.title{
+    text-align: center;
+    margin: 20px auto;
+}
+
+.navBar {
+    width: 100%;
+    height: 100%;
+    padding: 0px 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    height: 65px;
+    display: flex;
+}
+
+.linkHeader {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.611);
+    font-size: 17px;
+}
+
+li {
+    display: inline;
+    margin: auto 10px;
+    list-style: none;
+}
+
+.linkHeader:hover {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.imgLogo {
+    width: 100%;
+    height: 100%;
+}
+
+.linkLogo {
+    width: 100%;
+    height: 100%;
+}
+h1{
+    margin: 50px auto;
+}
+
+.noticia{
+    text-align: left;
+    width: 500px;
+    margin: 15px auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.textHeader{
+   padding-left: 120px;
+}
+.author{
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+    align-items: center;
+}
+hr{
+    margin: 20px 15%;
+}
+.imgAuthor{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+.linkNoticia {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.611);
+    margin-top: 10px;
+}
+
+
+.linkNoticia:hover {
+    color: rgb(0, 0, 0);
+}
+#form{
+    margin: 54px auto;
+    width: 300px;
+}
+
